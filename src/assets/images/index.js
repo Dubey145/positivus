@@ -5,8 +5,7 @@ import socialMedia from './social-media.svg'
 import emailMarketing from './email-marketing.svg'
 import contentCreation from './content-creation.svg'
 import analytics from './analytics.svg'
-
-
+import proposal from './proposal.svg'
 
 export {
     hero,
@@ -16,4 +15,5 @@ export {
     contentCreation,
     analytics,
     socialMedia,
+    proposal
 }
