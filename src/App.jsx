@@ -2,9 +2,9 @@ import { useState } from 'react'
 import './App.css'
 import Nav from './components/Nav'
 import Hero from './pages/Hero'
-import ServicesCard from './components/ServicesCard'
 import Services from './pages/Services'
 import CaseStudies from './pages/CaseStudies'
+import Process from './pages/Process'
 
 function App() {
 
@@ -14,7 +14,7 @@ function App() {
     <Hero></Hero>
     <Services></Services>
     <CaseStudies></CaseStudies>
-    <div>case studies</div>
+    <Process></Process>
     <div>working process</div>
     <div>team</div>
     <div>testimonials</div>

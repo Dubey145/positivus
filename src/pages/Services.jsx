@@ -20,7 +20,7 @@ const Services = () => {
         </div>
         <div className="bg-custom-gray h-[350px] w-full lg:mt-24 mt-16 relative lg:px-[60px] p-[50px] rounded-3xl">
           <div className=" w-full lg:w-1/2 h-full">
-            <div className="h-full flex flex-col  justify-center">
+            <div className="h-full flex flex-col justify-center">
               <h3 className="lg:text-3xl text-[26px] font-bold">
                 Let's make things happen
               </h3>
