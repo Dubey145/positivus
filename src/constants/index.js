@@ -65,3 +65,42 @@ export const caseStudies = [
   "For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.",
   "For a national retail chain, we created a social media marketing campaign that increased followers by 25% and generated a 20% increase in online sales.",
 ];
+
+export const workingProcess = [
+  {
+    index: "01",
+    title: "Consultation",
+    description:
+      "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.",
+  },
+  {
+    index: "02",
+    title: "Research and Strategy Development",
+    description:
+      "Our approach begins with thorough market research and the development of strategic frameworks tailored to meet our clients' specific objectives. We prioritize defining clear goals and executing detailed plans to ensure alignment with business needs.",
+  },
+  {
+    index: "03",
+    title: "Implementation",
+    description:
+      "Implementation involves meticulous planning, resource allocation, and execution to ensure that initiatives are rolled out effectively. By maintaining clear timelines, responsibilities, and communication channels, we aim to achieve seamless integration of new processes or projects. Regular monitoring and feedback mechanisms are also essential during implementation to address any challenges promptly and optimize outcomes.",
+  },
+  {
+    index: "04",
+    title: "Monitoring and Optimization",
+    description:
+      "In our operational framework, diligent oversight allows us to track performance metrics and identify areas for enhancement. This ongoing monitoring ensures that we can swiftly address any deviations from our goals, optimizing processes to maximize efficiency and effectiveness.",
+  },
+  {
+    index: "05",
+    title: "Reporting and Communication",
+    description:
+      "Regular reporting ensures transparency and accountability, fostering a clear understanding of progress and challenges. Simultaneously, clear communication channels facilitate seamless coordination and rapid decision-making within our team, ensuring that everyone stays informed and aligned on goals and objectives.",
+  },
+  {
+    index: "06",
+    title: "Continual Improvement",
+    description:
+      "Embracing a culture of continuous improvement, we regularly evaluate our methods and outcomes. Through feedback loops and lessons learned, we implement iterative refinements to enhance effectiveness and drive innovation across our operations. This commitment to evolution ensures we remain agile and responsive in achieving our goals.",
+  },
+];
