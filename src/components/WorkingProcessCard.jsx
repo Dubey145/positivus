@@ -14,9 +14,9 @@ const WorkingProcessCard = (props) => {
       }  rounded-3xl border-[1px] border-b-[6px] border-custom-black transition-colors duration-300`}
     >
       <div className="flex justify-between items-center">
-        <div className="flex items-center font-semi-bold">
+        <div className="flex items-center font-semi-bold max-lg:w-4/5">
           <h1 className="lg:text-6xl text-3xl">{props.index}</h1>
-          <h2 className="lg:text-3xl ml-6 text-[18px]">{props.title}</h2>
+          <h2 className="lg:text-3xl ml-6 text-[18px] ">{props.title}</h2>
         </div>
         <div onClick={toggleCardState}>
           <img
