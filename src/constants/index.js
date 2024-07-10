@@ -1,9 +1,15 @@
 import { blackArrow, greenArrow } from "../assets/icons";
 import {
   analytics,
+  brian,
   contentCreation,
   emailMarketing,
+  emily,
+  jane,
+  john,
+  michael,
   ppc,
+  sarah,
   seo,
   socialMedia,
 } from "../assets/images";
@@ -102,5 +108,50 @@ export const workingProcess = [
     title: "Continual Improvement",
     description:
       "Embracing a culture of continuous improvement, we regularly evaluate our methods and outcomes. Through feedback loops and lessons learned, we implement iterative refinements to enhance effectiveness and drive innovation across our operations. This commitment to evolution ensures we remain agile and responsive in achieving our goals.",
+  },
+];
+
+export const teamMembers = [
+  {
+    image: john,
+    name: "John Smith",
+    title: "CEO and Founder",
+    about:
+      "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
+  },
+  {
+    image: jane,
+    name: "Jane Doe",
+    title: "Director of Operations",
+    about:
+      "7+ years of experience in project management and team leadership. Strong organizational and communication skills",
+  },
+  {
+    image: michael,
+    name: "Michael Brown",
+    title: "Senior SEO Specialist",
+    about:
+      "5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization",
+  },
+  {
+    image: emily,
+    name: "Emily Johnson",
+    title: "PPC Manager",
+    about:
+      "3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis",
+  },
+  {
+    image: brian,
+    name: "Brian Williams",
+    title: "Social Media Specialist",
+    about:
+      "4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement",
+  },
+  {
+    image: sarah,
+    name: "Sarah Kim",
+    title: "Content Creator",
+    about:
+      "2+ years of experience in writing and editing. Skilled in creating compelling, SEO-optimized content for various industries",
   },
 ];
