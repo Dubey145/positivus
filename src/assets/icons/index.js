@@ -5,6 +5,8 @@ import blackArrow from './black-arrow.svg'
 import plus from './plus.svg'
 import minus from './minus.svg'
 import linkedin from './linkedin.svg'
+import whiteStar from './white-star.svg'
+import socials from './socials.svg'
 
 
 
@@ -15,5 +17,7 @@ export {
     blackArrow,
     plus,
     minus,
-    linkedin
+    linkedin,
+    whiteStar,
+    socials
 }
