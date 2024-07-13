@@ -4,6 +4,8 @@ import greenArrow from './green-arrow.svg'
 import blackArrow from './black-arrow.svg'
 import plus from './plus.svg'
 import minus from './minus.svg'
+import linkedin from './linkedin.svg'
+
 
 
 export {
@@ -12,5 +14,6 @@ export {
     greenArrow,
     blackArrow,
     plus,
-    minus
+    minus,
+    linkedin
 }
