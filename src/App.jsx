@@ -6,6 +6,7 @@ import Services from './pages/Services'
 import CaseStudies from './pages/CaseStudies'
 import Process from './pages/Process'
 import Team from './pages/Team'
+import ContactUs from './pages/ContactUs'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
     <CaseStudies></CaseStudies>
     <Process></Process>
     <Team></Team>
+    <ContactUs></ContactUs>
     
     <div>testimonials</div>
     <div>contact us</div>

@@ -6,7 +6,7 @@ const Button = (props) => {
       <button
         className={`${props.background} ${props.textColor} ${
           props.padding ? props.padding : "px-6 py-4"
-        } flex justify-center items-center rounded-lg border-[1px] border-custom-black max-lg:w-full `}
+        } ${props.width?props.width:''} flex justify-center items-center rounded-lg border-[1px] border-custom-black max-lg:w-full `}
       >
         {props.label}
       </button>
