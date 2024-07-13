@@ -12,6 +12,7 @@ import michael from './michael.svg'
 import emily from './emily.svg'
 import brian from './brian.svg'
 import sarah from './sarah.svg'
+import contact from './contact.svg'
 
 
 
@@ -29,5 +30,6 @@ export {
     michael,
     emily,
     brian,
-    sarah
+    sarah,
+    contact
 }
