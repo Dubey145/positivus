@@ -7,6 +7,7 @@ import CaseStudies from './pages/CaseStudies'
 import Process from './pages/Process'
 import Team from './pages/Team'
 import ContactUs from './pages/ContactUs'
+import Footer from './pages/Footer'
 
 function App() {
 
@@ -20,9 +21,9 @@ function App() {
     <Team></Team>
     <ContactUs></ContactUs>
     
-    <div>testimonials</div>
-    <div>contact us</div>
-    <div>footer</div>
+    {/* <div>testimonials</div> */}
+    <Footer></Footer>
+    
 
    </main>
   )
