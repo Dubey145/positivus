@@ -54,7 +54,7 @@ const Footer = () => {
         <div className = 'h-[1px] bg-white my-[50px]'></div>
         <div className = 'text-[18px] text-white flex lg:flex-row flex-col max-lg:text-center'>
             <p>© 2023 Positivus. All Rights Reserved.</p>
-            <p className = 'underline ml-8 max-lg:mt-[15px]'>Privacy Policy</p>
+            <p className = 'underline lg:ml-8 max-lg:mt-[15px]'>Privacy Policy</p>
         </div>
       </div>
     </section>
