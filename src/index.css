@@ -7,6 +7,18 @@
   .padding-x{
       @apply sm:px-[100px] px-4;
   }
+
+  .selection{
+    @apply transition duration-300 hover:bg-custom-green hover:scale-105 cursor-pointer;
+  }
+
+  .hover-scale{
+    @apply hover:scale-105 transform transition duration-300;
+  }
+
+  .fill-button{
+    @apply hover:bg-custom-green transition duration-300;
+  }
 }
 @layer components {
   .max-container {

@@ -1,6 +1,7 @@
 import React from "react";
 import { starBlack, hamburger } from "../assets/icons";
 import Button from "./Button";
+import { navItems } from "../constants";
 
 const Nav = () => {
   return (
@@ -10,15 +11,18 @@ const Nav = () => {
         <h2 className="pl-2 font-bold text-3xl max-lg:text-2xl">Positivus</h2>
       </div>
       <div className="flex max-lg:hidden">
-        <ul className="flex flex-row text-xl font-light xl:gap-16 gap-8 justify-end w-full items-center max-lg:text-base">
-          <li>About Us</li>
-          <li>Services</li>
-          <li>Use Cases</li>
-          <li>Pricing</li>
-          <li>Blog</li>
+        <ul className="flex flex-row text-xl font-light xl:gap-14 gap-8 justify-end w-full items-center max-lg:text-base">
+          {
+            navItems.map((item) =>{
+              return <div key ={item} className = "selection px-2 rounded-lg">
+                <li>{item}</li>
+              </div>
+            }) 
+          }
           <li>
+            <div className = "selection rounded-lg">
             <Button label="Request a Quote"></Button>
-
+            </div>
           </li>
         </ul>
         
