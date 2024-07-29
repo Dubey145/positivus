@@ -14,6 +14,8 @@ import {
   socialMedia,
 } from "../assets/images";
 
+export const navItems = ["About Us","Services","Use Cases","Pricing","Blog"]
+
 export const services = [
   {
     titleL1: "Search Engine",
