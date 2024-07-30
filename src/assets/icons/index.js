@@ -13,9 +13,8 @@ import heart from './heart.svg'
 import location from './location.svg'
 import play from './play.svg'
 import share from './share.svg'
-
-
-
+import megaphone from './megaphone.svg'
+import ring from './ring.svg'
 
 export {
     starBlack,
@@ -33,4 +32,6 @@ export {
     location,
     play,
     share,
+    megaphone,
+    ring
 }
