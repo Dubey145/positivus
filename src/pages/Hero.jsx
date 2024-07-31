@@ -45,7 +45,7 @@ const Hero = () => {
 
         {/* megaphone and stars */}
         <img
-          className="absolute right-[475px] bottom-[70px] animate-floating"
+          className="absolute right-[475px] bottom-[70px] animate-spin-slow"
           src={starPlus}
         ></img>
         <img
@@ -77,9 +77,9 @@ const Hero = () => {
         </div>
 
         {/* rings */}
-        <img className="absolute right-[120px] top-[190px]" src={ring}></img>
-        <img className="absolute right-[100px] top-[160px]" src={ring}></img>
-        <img className="absolute right-[80px] top-[130px]" src={ring}></img>
+        <img className="absolute right-[120px] top-[190px] animate-floating" src={ring}></img>
+        <img className="absolute right-[100px] top-[160px] animate-floating" src={ring}></img>
+        <img className="absolute right-[80px] top-[130px] animate-floating" src={ring}></img>
 
         {/* <img src = {ring}></img>  
           <img src = {ring}></img>   */}

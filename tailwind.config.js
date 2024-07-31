@@ -59,16 +59,22 @@ export default {
           '100%':{
             transform:'translate(70px,15px) scale(1)',
           }
-        }
+        },
+        wiggle: {
+          '0%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
+          '100%': { transform: 'rotate(-3deg)' },
+        },
       },
       animation: {
         "spin-slow": "spin 20s linear infinite",
-        rotate4: "rotate4 4s ease-in-out infinite",
+        rotate4: "rotate4 2s ease-in-out infinite",
         floating: "float 2s ease-in-out infinite ",
         heart: 'heart 2s forwards',
         share: 'share 2s forwards',
         play: 'play 2s forwards',
         location: 'location 2s forwards',
+        wiggle: 'wiggle 1s ease-in-out',
       },
     },
   },
