@@ -39,7 +39,7 @@ const Footer = () => {
           <div className="lg:w-1/2 bg-dark-gray p-[30px] lg:px-10 lg:py-[58px] rounded-xl">
             <div className="flex flex-col lg:flex-row gap-6">
               <input className = 'lg:w-1/2 border-[1px] border-white bg-dark-gray rounded-lg max-lg:p-[20px] pl-[20px]' placeholder="Email"></input>
-              <div className = 'lg:w-1/2 '>
+              <div className = 'lg:w-1/2 hover-scale'>
               <Button
                 label="Subscribe to news"
                 background={"bg-custom-green"}

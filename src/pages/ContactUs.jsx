@@ -35,11 +35,11 @@ const ContactUs = () => {
               placeholder="Message"
             ></input>
           </div>
-          <div className="mt-10 lg:block hidden">
+          <div className="mt-10 lg:block hidden hover-scale">
             <Button
               label="Send Message"
-              background={"bg-custom-black"}
-              textColor={"text-white"}
+              background={"bg-custom-black fill-button"}
+              textColor={"text-white hover:text-custom-black"}
               padding={"px-6 py-4"}
               width={"w-full"}
             ></Button>
