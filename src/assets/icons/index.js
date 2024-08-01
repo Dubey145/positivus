@@ -15,6 +15,16 @@ import play from './play.svg'
 import share from './share.svg'
 import megaphone from './megaphone.svg'
 import ring from './ring.svg'
+import straightRing from './straight-ring.svg'
+import spikeStar from './spike-star.svg'
+import greenStarPlus from './green-star-plus.svg'
+import grayStar from './gray-star.svg'
+import spikeCircle from './spike-circle.svg'
+import largeGreenStar from './large-green-star.svg'
+import largeBlackStar from './large-black-star.svg'
+
+
+
 
 export {
     starBlack,
@@ -33,5 +43,12 @@ export {
     play,
     share,
     megaphone,
-    ring
+    ring,
+    straightRing,
+    spikeStar,
+    greenStarPlus,
+    grayStar,
+    spikeCircle,
+    largeGreenStar,
+    largeBlackStar
 }

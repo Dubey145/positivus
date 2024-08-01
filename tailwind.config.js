@@ -25,13 +25,8 @@ export default {
           "100%": { transform: "translateY(0)" },
         },
         'heart':{
-          "0%": {
-            transform: 'translate(0, 0) scale(0.25)'
-            
-          },
-          '100%':{
-            transform:'translate(70px,-30px) scale(1)',
-          }
+          "0%": {transform: 'translate(0, 0) scale(0.25)'},
+          '100%':{transform:'translate(70px,-30px) scale(1)'}
         },
         'share':{
           "0%": {
