@@ -46,9 +46,9 @@ const ContactUs = () => {
             ></Button>
           </div>
         </div>
-        <img className = 'absolute  top-10 right-[-325px] animate-spin-slow' src = {spikeCircle}></img>
-        <img className = 'absolute z-10 bottom-[175px] right-[275px] animate-spin-slow' src = {largeGreenStar}></img>
-        <img className = 'absolute z-10 bottom-[300px] right-[70px] animate-spin-slow' src = {largeBlackStar}></img>
+        <img className = 'absolute top-10 right-[-325px] animate-spin-slow max-lg:hidden' src = {spikeCircle}></img>
+        <img className = 'absolute z-10 bottom-[175px] right-[275px] animate-spin-slow max-lg:hidden' src = {largeGreenStar}></img>
+        <img className = 'absolute z-10 bottom-[300px] right-[70px] animate-spin-slow max-lg:hidden' src = {largeBlackStar}></img>
 
 
         {/* <img className="absolute top-10 right-[-325px] max-lg:hidden" src={contact}></img> */}

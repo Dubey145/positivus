@@ -8,7 +8,7 @@ import { grayStar, greenStarPlus, spikeStar, straightRing } from "../assets/icon
 
 const Services = () => {
   return (
-    <section className="max-container padding-x mt-12 mb-12">
+    <section className="max-container padding-x lg:mt-[140px] mt-[60px]">
       <div>
         <SectionHeading
           title="Services"

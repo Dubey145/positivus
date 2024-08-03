@@ -25,35 +25,20 @@ export default {
           "100%": { transform: "translateY(0)" },
         },
         'heart':{
-          "0%": {transform: 'translate(0, 0) scale(0.25)'},
-          '100%':{transform:'translate(70px,-30px) scale(1)'}
+          '0%':{transform:'translate(-70px,30px) scale(0.25)'},
+          "100%": {transform: 'translate(0, 0) scale(1)'}
         },
         'share':{
-          "0%": {
-            transform: 'translate(0, 0) scale(0.25)'
-            
-          },
-          '100%':{
-            transform:'translate(140px,-20px) scale(1)',
-          }
+          '0%':{transform:'translate(-130px,20px) scale(0.25)'},
+          "100%": {transform: 'translate(0, 0) scale(1)'},
         },
         'play':{
-          "0%": {
-            transform: 'translate(0, 0) scale(0.25)'
-            
-          },
-          '100%':{
-            transform:'translate(110px,15px) scale(1)',
-          }
+          '0%':{transform:'translate(-110px,15px) scale(0.25)'},
+          "100%": {transform: 'translate(0, 0) scale(1)'},
         },
         'location':{
-          "0%": {
-            transform: 'translate(0, 0) scale(0.25)'
-            
-          },
-          '100%':{
-            transform:'translate(70px,15px) scale(1)',
-          }
+          '0%':{transform:'translate(-70px,-15px) scale(0.25)'},
+          "100%": {transform: 'translate(0, 0) scale(1)'},
         },
         wiggle: {
           '0%': { transform: 'rotate(-3deg)' },
@@ -65,11 +50,11 @@ export default {
         "spin-slow": "spin 20s linear infinite",
         rotate4: "rotate4 2s ease-in-out infinite",
         floating: "float 2s ease-in-out infinite ",
-        heart: 'heart 2s forwards',
-        share: 'share 2s forwards',
-        play: 'play 2s forwards',
-        location: 'location 2s forwards',
-        wiggle: 'wiggle 1s ease-in-out',
+        heart: 'heart 2s forwards, float 2s ease-in-out 3s infinite',
+        share: 'share 2s forwards, float 2s ease-in-out 3s infinite',
+        play: 'play 2s forwards, float 2s ease-in-out 3s infinite',
+        location: 'location 2s forwards, float 2s ease-in-out 3s infinite',
+        wiggle: 'wiggle 1s ease-in-out, float 2s ease-in-out 3s infinite',
       },
     },
   },
