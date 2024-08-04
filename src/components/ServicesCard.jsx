@@ -3,7 +3,7 @@ import React from "react";
 const ServicesCard = (props) => {
   return (
     <div
-      className={`w-[390px] h-[320px] lg:w-[600px] lg:h-[310] rounded-3xl ${props.cardBackground} p-12 border-[1px] border-b-[6px] border-custom-black hover-scale`}
+      className={`w-full h-[320px] lg:w-[600px] lg:h-[310] rounded-3xl ${props.cardBackground} p-12 border-[1px] border-b-[6px] border-custom-black hover-scale`}
     >
       <div className="w-full h-full flex lg:flex-row flex-col justify-between">
         <div className="h-full flex flex-col justify-between">
