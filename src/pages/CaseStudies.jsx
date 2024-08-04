@@ -17,7 +17,7 @@ const CaseStudies = () => {
   };
 
   return (
-    <section className = 'max-container padding-x lg:mt-[140px] mt-[60px]'>
+    <section id = "Use Cases" className = 'max-container padding-x lg:mt-[140px] mt-[60px]'>
         
         <SectionHeading
           title="Case Studies"

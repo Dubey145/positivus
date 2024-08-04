@@ -20,11 +20,7 @@ function App() {
     <Process></Process>
     <Team></Team>
     <ContactUs></ContactUs>
-    
-    {/* <div>testimonials</div> */}
     <Footer></Footer>
-    
-
    </main>
   )
 }
