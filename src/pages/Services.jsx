@@ -1,14 +1,13 @@
 import React from "react";
 import { services } from "../constants";
 import ServicesCard from "../components/ServicesCard";
-import { proposal } from "../assets/images";
 import Button from "../components/Button";
 import SectionHeading from "../components/SectionHeading";
 import { grayStar, greenStarPlus, spikeStar, straightRing } from "../assets/icons";
 
 const Services = () => {
   return (
-    <section className="max-container padding-x lg:mt-[140px] mt-[60px]">
+    <section id = 'Services' className="max-container padding-x lg:mt-[140px] mt-[60px]">
       <div>
         <SectionHeading
           title="Services"
@@ -30,6 +29,7 @@ const Services = () => {
                 services can help your business grow and succeed online.
               </p>
               {/* <div className = ''> */}
+              <a href = "#contact">
               <Button
                 label="Get your free proposal"
                 background={"bg-custom-black fill-button"}
@@ -38,6 +38,7 @@ const Services = () => {
                 misc = {'hover-scale'}
               ></Button>
               {/* </div> */}
+              </a>
             </div>
             <div className="lg:w-[494px] lg:h-[394px] absolute right-0 top-[-20px] lg:block hidden">
               <div className="relative inline top-[120px] left-[90px] z-10">

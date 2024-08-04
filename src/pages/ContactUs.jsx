@@ -1,12 +1,11 @@
 import React from "react";
 import SectionHeading from "../components/SectionHeading";
 import Button from "../components/Button";
-import { contact } from "../assets/images";
 import { largeBlackStar, largeGreenStar, spikeCircle } from "../assets/icons";
 
 const ContactUs = () => {
   return (
-    <section className="max-container padding-x lg:mt-[140px] mt-[60px]">
+    <section id = "contact" className="max-container padding-x lg:mt-[140px] mt-[60px]">
       <SectionHeading
         title="Contact Us"
         text="Let's Discuss Your Digital Marketing Needs"

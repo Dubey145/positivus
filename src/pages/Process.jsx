@@ -5,7 +5,7 @@ import WorkingProcessCard from "../components/WorkingProcessCard";
 
 const Process = () => {
   return (
-    <section className="max-container padding-x lg:mt-[140px] mt-[60px]">
+    <section id = 'Process' className="max-container padding-x lg:mt-[140px] mt-[60px]">
       <SectionHeading
         title="Our Working Process"
         text="Step-by-Step Guide to Achieving Your Business Goals"

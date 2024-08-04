@@ -8,7 +8,7 @@ const Team = () => {
   const numMembersToShow = isLargeScreen ? 6 : 4;
 
   return (
-    <section className="max-container padding-x lg:mt-[140px] mt-[60px]">
+    <section id = 'Team' className="max-container padding-x lg:mt-[140px] mt-[60px]">
       <SectionHeading
         title="Meet The Team"
         text="Meet the skilled and experienced team behind our successful digital marketing strategies"

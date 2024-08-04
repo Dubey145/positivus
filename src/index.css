@@ -33,3 +33,4 @@
 * {
   font-family: 'Space Grotesk';
 }
+html { scroll-behavior: smooth; }

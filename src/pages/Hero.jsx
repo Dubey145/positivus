@@ -17,12 +17,14 @@ const Hero = () => {
           </p>
           <div className="mt-5 lg:mt-9 text-xl max-lg:w-full">
             <div className="lg:inline-flex hover-scale">
+              <a href = "#contact">
               <Button
                 label="Book a Consultation"
                 background={"bg-custom-black fill-button"}
                 textColor={"text-white hover:text-custom-black"}
                 padding={"px-6 py-4"}
               ></Button>
+              </a>
             </div>
           </div>
         </div>

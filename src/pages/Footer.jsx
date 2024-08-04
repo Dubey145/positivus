@@ -1,6 +1,7 @@
 import React from "react";
 import { socials, whiteStar } from "../assets/icons";
 import Button from "../components/Button";
+import { navItems } from "../constants";
 
 
 const Footer = () => {
@@ -13,11 +14,11 @@ const Footer = () => {
             <h2 className="text-3xl ml-2">Positivus</h2>
           </div>
           <div className="flex flex-col lg:flex-row gap-[15px] lg:gap-[40px] text-[16px] lg:text-[18px] lg:underline font-thin max-lg:my-[37px] text-center">
-            <p>About Us</p>
-            <p>Services</p>
-            <p>Use Cases</p>
-            <p>Pricing</p>
-            <p className = "lg:block hidden">Blog</p>
+          {
+            navItems.map((item)=>{
+              return <a href = {`#${item}`}>{item}</a>
+            })
+          }            
           </div>
           <div className = 'lg:block hidden'>
             <img src={socials}></img>
@@ -53,7 +54,7 @@ const Footer = () => {
         </div>
         <div className = 'h-[1px] bg-white my-[50px]'></div>
         <div className = 'text-[18px] text-white flex lg:flex-row flex-col max-lg:text-center'>
-            <p>© 2023 Positivus. All Rights Reserved.</p>
+            <p>© 2024 Positivus. All Rights Reserved.</p>
             <p className = 'underline lg:ml-8 max-lg:mt-[15px]'>Privacy Policy</p>
         </div>
       </div>
