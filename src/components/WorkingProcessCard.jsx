@@ -8,9 +8,11 @@ const WorkingProcessCard = (props) => {
   };
 
   return (
+
+    
     <div
-      className={`flex flex-col lg:mt-8 mt-[20px] lg:px-[60px] lg:py-[41px] p-[30px] ${
-        active ? "bg-custom-green" : "bg-custom-gray"
+      className={`flex flex-col lg:mt-8 mt-[20px] lg:px-[60px] lg:py-[41px] p-[30px] justify-center ${
+        active ? "bg-custom-green" : "bg-custom-gray max-lg:h-[121px]"
       }  rounded-3xl border-[1px] border-b-[6px] border-custom-black transition-colors duration-300`}
     >
       <div className="flex justify-between items-center">
@@ -37,6 +39,7 @@ const WorkingProcessCard = (props) => {
         </div>
       </div>
     </div>
+
   );
 };
 
